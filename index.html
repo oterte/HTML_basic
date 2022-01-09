@@ -1,0 +1,44 @@
+<!--index란 이름을 사용하는 이유는 브라우저가 기본적으로 index라는 이름을 가진 파일을 찾아서 시작함-->
+<!DOCTYPE html>
+    <!--문서의 html 버전을 지정-->
+    <!--DOCTYPE은 마크업 언어에서 문서 형식을 정의하며, 
+        웹 브라우저가 어떤 HTML버전의 해석방식으로 페이지를 이해하면 되는지를 알려주는 용도-->
+    <!--현재는 HTML5가 표준버전-->
+<html lang="ko">
+    <!--문서의 전체 범위, 어디에서 시작하고 어디에서 끝나는지 알려줌-->
+    <!--모든 태그는 영역이 존재-->
+<head>
+    <!--문서의 정보를 나타내는 범위, 
+        웹브라우저가 해석해야 할 제목, 설명, 파일위치, 스타일 같은 보이지 않는 정보를 작성하는 범위-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--HTML문서의 제작자, 내용, 키워드 같은 여러 정보를 검색엔진이나 브라우저에게 제공하는 meta 태그-->
+    <title>Document</title>
+        <!--html 문서의 제목을 나타내는 태그-->
+    <link rel="stylesheet" href="main.css">
+        <!--외부 문서를 가져와 연결할 때 사용, 주로 css파일을 연결할 때 사용-->
+        <!--외부 문서의 경로를 명시해주어야 함-->
+        <!--css파일을 현재의 html파일에 연결하여 적용시키고 싶다면 link 태그를 이용-->
+    <script src="./main.js"></script>
+        <!--자바스크립트 파일을 현재의 html파일에 연결하여 적용시키고 싶다면 script태그를 이용-->
+        <!--자바스크립트를 문서 안에 작성할 때도 script태그를 이용함-->
+    <style></style>
+        <!--index파일 내부에서 css 스타일을 적용시키는 태그-->
+
+</head>
+<body>
+    <!--문서의 구조를 나타내는 범위
+    사용자 화면을 통해 보여지는 웹페이지의 보여지는 구조를 작성하는 범위-->
+    
+    <a href="https://www.naver.com/">네이버</a>
+    <a href="/about/about.html">about</a>
+    <a href="/practice/practice.html">practice</a>
+    <!--a 태그를 이용해 페이지를 연결할 수 있음-->
+    <img src="./images/cat.jpg" alt="고양이 위치">
+    <!--html 문서에 이미지를 사용하고 싶다면 img태그를 이용하여 경로와 대체텍스트를 명시하여 사용-->
+
+
+
+</body>
+</html>
